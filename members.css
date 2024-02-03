@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: wrap;
+  justify-content: center;
+  padding: 50px 8%;
+}
+.gallery-head {
+  text-align: center;
+  color: black;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.gallery img {
+  /* border-radius: 10%; */
+  border: 3px solid white;
+
+  /* width: 100%; */
+  height: 200px;
+  max-width: 100%;
+  /* height: 300px; */
+  /* object-fit: cover; */
+}
