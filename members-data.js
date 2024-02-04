@@ -1,4 +1,4 @@
-let members = [
+let fellows = [
   {
     img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
     category: "board of fellows",
@@ -63,5 +63,53 @@ let members = [
     img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
     category: "board of fellows",
     name: "Mr. Amafiri Godfrey",
+  },
+];
+
+let management = [
+  {
+    img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
+    category: "management team",
+    name: "Executive Registrar of the Institute",
+  },
+  {
+    img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
+    category: "management team",
+    name: "Director, Membership Service",
+  },
+  {
+    img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
+    category: "management team",
+    name: "Director, Training, External Affairs",
+  },
+  {
+    img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
+    category: "management team",
+    name: "Director of Education Research & Consultancy",
+  },
+  {
+    img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
+    category: "management team",
+    name: "Director of Broadcast & Public Relations",
+  },
+  {
+    img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
+    category: "management team",
+    name: "Director, Finance & Accounts",
+  },
+  {
+    img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
+    category: "management team",
+    name: "Director, Growth/Development",
+  },
+  {
+    img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
+    category: "management team",
+    name: "Director ICT Management",
+  },
+  {
+    img: "INSTITUTE-OF-CRIMINOLOGY-AND-PENOLOGY-AWARD_13.jpg",
+    category: "management team",
+    name: "Director Board of Fellows",
   },
 ];
