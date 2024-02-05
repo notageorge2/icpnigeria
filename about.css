@@ -1,0 +1,96 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Style the main sections */
+.section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+.section-title {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Style links */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1a5276;
+}
+
+/* Style images in the gallery */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-container img {
+  max-width: calc(50% - 10px);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Style the address in the contact section */
+address {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+/* Style FAQ entries */
+dl {
+  margin-top: 20px;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+dd {
+  margin-bottom: 15px;
+}
+
+/* Style contact departments */
+.department {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #2980b9;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #1a5276;
+}
