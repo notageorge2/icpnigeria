@@ -5,62 +5,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+ <link rel="stylesheet" href="layout/styles/nav.css">
 <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 </head>
 <body id="top">
+  <nav class="navbar">
+    <div class="navbar-container container">
+        <input type="checkbox" name="" id="">
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">Navbar</h1>
+    </div>
+ </nav>   
 
-<div class="bgded overlay light" id="banner-bg-img" style="background-size: contain;"> 
- 
+  <div class="bgded overlay light" id="banner-bg-img" style="background-size: contain;"> 
 
   <div class="wrapper row1" style="background-color: red;">
     <header id="header" class="hoc clear"> 
-      
-      <div id="logo" class="fl_left">
-        <h1><a href="index.html">
-          <div class="words_div">
-            <div class="words">
-              <span>Institiute</span>
-              <span>Of</span>
-              <span>Criminology</span>
-              <span>And</span>
-              <span>Penology</span>
-            </div>
-          </div>
-        </a></h1>
-      </div>
-      <nav id="mainav" class="fl_right">
-        <ul class="clear">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a class="drop" href="#">Pages</a>
-            <ul>
-              <li><a href="pages/gallery.html">Gallery</a></li>
-              <li><a href="pages/full-width.html">Full Width</a></li>
-              <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-              <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-              <!-- <li><a href="pages/basic-grid.html">Basic Grid</a></li> -->
-            </ul>
-          </li>
-          <li><a class="drop" href="#">Dropdown</a>
-            <ul>
-              <li><a href="#">Level 2</a></li>
-              <li><a class="drop" href="#">Level 2 + Drop</a>
-                <ul>
-                  <li><a href="#">Level 3</a></li>
-                  <li><a href="#">Level 3</a></li>
-                  <li><a href="#">Level 3</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Level 2</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Apply</a></li>
-          <li><a href="#">Link Text</a></li>
-        </ul>
-      </nav>
-      <!-- ################################################################################################ -->
+      <!-- ############################################################################################### -->
     </header>
   </div>
   <!-- ################################################################################################ -->
@@ -80,6 +56,9 @@
   </div>
   <!-- ################################################################################################ -->
 </div>
+
+
+
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -350,5 +329,6 @@
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 <script src="layout/scripts/intersectionobserver.js"></script>
+<script src="layout/scripts/navbar.js"></script>
 </body>
 </html>
