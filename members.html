@@ -13,116 +13,434 @@
       type="text/css"
       media="all"
     />
-    <link rel="stylesheet" href="./lightbox.css" />
-    <link rel="stylesheet" href="./members.css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./lightbox.css" />
+    <link rel="stylesheet" href="./members.css" /> -->
+    <link rel="stylesheet" href="layout/styles/nav.css">
+    <link rel="stylesheet" href="memeber2.css">
+    <link rel="stylesheet" href="layout/styles/">
+
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
-  <body id="top">
-    <div
-      class="bgded overlay light"
-      id="banner-bg-img"
-      style="background-size: contain"
-    >
-      <div class="wrapper row1" style="background-color: red">
-        <header id="header" class="hoc clear">
-          <div id="logo" class="fl_left">
-            <h1>
-              <a href="index.html">
-                <div class="words_div">
-                  <div class="words">
-                    <span>Institiute</span>
-                    <span>Of</span>
-                    <span>Criminology</span>
-                    <span>And</span>
-                    <span>Penology</span>
-                  </div>
-                </div>
-              </a>
-            </h1>
+  <body>
+    <nav class="navbars">
+      <div class="navbars-containers containers">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
           </div>
-          <nav id="mainav" class="fl_right">
-            <ul class="clear">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li>
-                <a class="drop" href="#">Pages</a>
-                <ul>
-                  <li><a href="pages/gallery.html">Gallery</a></li>
-                  <li><a href="pages/full-width.html">Full Width</a></li>
-                  <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-                  <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-                  <!-- <li><a href="pages/basic-grid.html">Basic Grid</a></li> -->
-                </ul>
-              </li>
-              <li>
-                <a class="drop" href="#">Dropdown</a>
-                <ul>
-                  <li><a href="#">Level 2</a></li>
-                  <li>
-                    <a class="drop" href="#">Level 2 + Drop</a>
-                    <ul>
-                      <li><a href="#">Level 3</a></li>
-                      <li><a href="#">Level 3</a></li>
-                      <li><a href="#">Level 3</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Level 2</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Apply</a></li>
-              <li><a href="#">Link Text</a></li>
-            </ul>
-          </nav>
-          <!-- ################################################################################################ -->
-        </header>
+          <ul class="menu-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="courses.html">Courses & Application</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="members.html">Memebers of the Institute</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <h1 class="logo">INSTITUTE OF CRIMINOLOGY <br> AND PENOLOGY</h1>
       </div>
-
-      <section id="pageintro" class="hoc clear">
-        <!-- ################################################################################################ -->
-        <article>
-          <h3 class="heading" style="font-size: 2rem; font-weight: bold">
-            WELCOME<br />
-            TO THE INSITIUTE OF CRIMINOLOGY AND PENOLOGY
-          </h3>
-          <p>
-            The Institute of Criminology and Penology Nigeria is afamous,and
-            premier institute for Criminologist, Penologist, Security Exert,
-            Forensic Scientist, Criminalistics, Detectives, Profile Examiners
-            and other related professionals of relevance and Demand..
-          </p>
-          <footer>
-            <a class="btn" style="background-color: red" href="#"
-              >MORE ABOUT US</a
-            >
-          </footer>
-        </article>
-        <!-- ################################################################################################ -->
-      </section>
-      <!-- ################################################################################################ -->
     </div>
-    <section id="board-fellows" class="gallery-con">
-      <h2 class="gallery-head">BOARD OF FELLOWS</h2>
-      <div class="container">
-        <div id="fellows" class="gallery">
-          <!-- board of fellows here -->
+  
+  </nav>  
+</div>
+
+
+<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>FELLOW MEMBERS</h1>
+      </div>
+    </div>
+  </div>
+  <div id="users">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <input class="search form-control" placeholder="Search" />
+          <button class="sort btn btn-danger" data-sort="name">
+      Sort by name
+    </button>
+          <button class="sort btn btn-danger" data-sort="title">
+      Sort by title
+    </button>
+         
         </div>
       </div>
-    </section>
-    <section id="management team" class="gallery-con">
-      <h2 class="gallery-head">MANAGEMENT TEAM</h2>
-      <div class="container">
-        <div id="management" class="gallery"></div>
+      <div class="row">
+        <div class="col-md-12">
+  
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+
+
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+          <div class="list-group list">
+            <a href="#" class="list-group-item">
+              <div class="row">
+                <div class="col-sm-10">
+                  <img src="http://vitty.host/images/DOM-LOGO-250.png" class="pull-left photo">
+                  <h4 class="list-group-item-heading name">MEMBER NAME 1</h4>
+                  <p class="list-group-item-text title">USERNAME 1</p>
+                </div>
+                <div class="col-sm-2">
+                  <div class="expertise">
+                    <div class="read-more">
+                      <button type="button" class="btn btn-danger btn-more">SEE PROFILE &nbsp; <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                    <span class="expertise-label">ACTIVE SERVICES &nbsp;</span>
+                    <p class="labels">
+                    <span class="label label-default expertise">VITTY IPTV</span>
+                    <span class="label label-default expertise">ELITE IPTV</span>
+                    <span class="label label-default expertise">PLEX</span>
+                    <span class="label label-default expertise">EMBY</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- ################################################################################################ -->
+          
+                
+           
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </div>
+</div>
+
+    
+   
+    
 
     <!-- ################################################################################################ -->
-    <div
-      class="wrapper row2 bgded overlay"
-      style="background-image: url('images/demo/backgrounds/04.png')"
-    >
+    <div class="wrapper row2 bgded overlay" style="background-image: url('images/demo/backgrounds/04.png')">
       <section class="hoc cta clear">
         <!-- ################################################################################################ -->
         <div class="sectiontitle">
@@ -221,8 +539,7 @@
 
     <!-- ################################################################################################ -->
     <div class="wrapper row5">
-      <div id="copyright" class="hoc clear">
-        <!-- ################################################################################################ -->
+      <div id="copyright" class="hoc clear
         <p class="fl_left">
           Copyright &copy; 2018 - All Rights Reserved -
           <a href="#">Domain Name</a>
@@ -246,8 +563,10 @@
     <script src="layout/scripts/jquery.backtotop.js"></script>
     <script src="layout/scripts/jquery.mobilemenu.js"></script>
     <script src="layout/scripts/intersectionobserver.js"></script>
-    <script src="./members-data.js"></script>
-    <script src="./lightbox.js"></script>
+    <script src="layout/scripts/members.js"></script>
+    <!-- <script src="./members-data.js"></script>
+    <script src="./lightbox.js"></script> -->
     <script src="./members.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
 </html>

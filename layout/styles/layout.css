@@ -347,13 +347,13 @@ if your not worried about it, simply delete it, as the placeholder will take on 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#04DEE0;}
 
-#backtotop{color:#FFFFFF; background-color:#04DEE0;}
+#backtotop{color:#FFFFFF; background-color:rgb(82, 18, 18);}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
 #comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#04DEE0;}
-th{color:#FFFFFF; background-color:#373737;}
+th{color:#FFFFFF; background-color: red;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
 table a, #comments a{background-color:inherit;}

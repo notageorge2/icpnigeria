@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Pacifico');
+
+.flipper-container{
+  position:relative;
+  margin:35px auto;
+  perspective:1000;
+  width:450px;
+  height:300px;
+}
+.flip{
+  height:100%;
+  width:100%;
+  transform-style:preserve-3d;
+  transition:all 1s;
+}
+.flipper-container:hover .flip{
+  transform:rotateY(180deg);
+  box-shadow: 0px 10px 10px #aaa;
+}
+.face{
+  position:absolute;
+  height:100%;
+  width:100%;
+  backface-visibility:hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  background-color:crimson;
+}
+.back h2{
+  text-align: center;
+  padding: 40px;
+  
+  font-size:30px;
+}
